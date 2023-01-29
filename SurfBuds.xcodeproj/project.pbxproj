@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F6CE984297FA6D800BDDD3E /* SurfBudsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CE983297FA6D800BDDD3E /* SurfBudsApp.swift */; };
+		6F6CE986297FA6D800BDDD3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CE985297FA6D800BDDD3E /* ContentView.swift */; };
+		6F6CE988297FA6D900BDDD3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F6CE987297FA6D900BDDD3E /* Assets.xcassets */; };
+		6F6CE98B297FA6D900BDDD3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F6CE98A297FA6D900BDDD3E /* Preview Assets.xcassets */; };
+		6F6CE995297FA6D900BDDD3E /* SurfBudsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CE994297FA6D900BDDD3E /* SurfBudsTests.swift */; };
+		6F6CE99F297FA6D900BDDD3E /* SurfBudsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CE99E297FA6D900BDDD3E /* SurfBudsUITests.swift */; };
+		6F6CE9A1297FA6D900BDDD3E /* SurfBudsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CE9A0297FA6D900BDDD3E /* SurfBudsUITestsLaunchTests.swift */; };
+		6F6CE9AE297FA70C00BDDD3E /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CE9AD297FA70C00BDDD3E /* UserProfile.swift */; };
+		6F6CE9B0297FA74200BDDD3E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CE9AF297FA74200BDDD3E /* ModelData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F6CE991297FA6D900BDDD3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F6CE978297FA6D800BDDD3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F6CE97F297FA6D800BDDD3E;
+			remoteInfo = SurfBuds;
+		};
+		6F6CE99B297FA6D900BDDD3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F6CE978297FA6D800BDDD3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F6CE97F297FA6D800BDDD3E;
+			remoteInfo = SurfBuds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F6CE980297FA6D800BDDD3E /* SurfBuds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfBuds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6CE983297FA6D800BDDD3E /* SurfBudsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfBudsApp.swift; sourceTree = "<group>"; };
+		6F6CE985297FA6D800BDDD3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F6CE987297FA6D900BDDD3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F6CE98A297FA6D900BDDD3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F6CE990297FA6D900BDDD3E /* SurfBudsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurfBudsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6CE994297FA6D900BDDD3E /* SurfBudsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfBudsTests.swift; sourceTree = "<group>"; };
+		6F6CE99A297FA6D900BDDD3E /* SurfBudsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurfBudsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F6CE99E297FA6D900BDDD3E /* SurfBudsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfBudsUITests.swift; sourceTree = "<group>"; };
+		6F6CE9A0297FA6D900BDDD3E /* SurfBudsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfBudsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6F6CE9AD297FA70C00BDDD3E /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		6F6CE9AF297FA74200BDDD3E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F6CE97D297FA6D800BDDD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6CE98D297FA6D900BDDD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6CE997297FA6D900BDDD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F6CE977297FA6D800BDDD3E = {
+			isa = PBXGroup;
+			children = (
+				6F6CE982297FA6D800BDDD3E /* SurfBuds */,
+				6F6CE993297FA6D900BDDD3E /* SurfBudsTests */,
+				6F6CE99D297FA6D900BDDD3E /* SurfBudsUITests */,
+				6F6CE981297FA6D800BDDD3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F6CE981297FA6D800BDDD3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F6CE980297FA6D800BDDD3E /* SurfBuds.app */,
+				6F6CE990297FA6D900BDDD3E /* SurfBudsTests.xctest */,
+				6F6CE99A297FA6D900BDDD3E /* SurfBudsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F6CE982297FA6D800BDDD3E /* SurfBuds */ = {
+			isa = PBXGroup;
+			children = (
+				6F6CE983297FA6D800BDDD3E /* SurfBudsApp.swift */,
+				6F6CE985297FA6D800BDDD3E /* ContentView.swift */,
+				6F6CE9AF297FA74200BDDD3E /* ModelData.swift */,
+				6F6CE987297FA6D900BDDD3E /* Assets.xcassets */,
+				6F6CE9AD297FA70C00BDDD3E /* UserProfile.swift */,
+				6F6CE989297FA6D900BDDD3E /* Preview Content */,
+			);
+			path = SurfBuds;
+			sourceTree = "<group>";
+		};
+		6F6CE989297FA6D900BDDD3E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F6CE98A297FA6D900BDDD3E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F6CE993297FA6D900BDDD3E /* SurfBudsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F6CE994297FA6D900BDDD3E /* SurfBudsTests.swift */,
+			);
+			path = SurfBudsTests;
+			sourceTree = "<group>";
+		};
+		6F6CE99D297FA6D900BDDD3E /* SurfBudsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F6CE99E297FA6D900BDDD3E /* SurfBudsUITests.swift */,
+				6F6CE9A0297FA6D900BDDD3E /* SurfBudsUITestsLaunchTests.swift */,
+			);
+			path = SurfBudsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F6CE97F297FA6D800BDDD3E /* SurfBuds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6CE9A4297FA6D900BDDD3E /* Build configuration list for PBXNativeTarget "SurfBuds" */;
+			buildPhases = (
+				6F6CE97C297FA6D800BDDD3E /* Sources */,
+				6F6CE97D297FA6D800BDDD3E /* Frameworks */,
+				6F6CE97E297FA6D800BDDD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurfBuds;
+			productName = SurfBuds;
+			productReference = 6F6CE980297FA6D800BDDD3E /* SurfBuds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F6CE98F297FA6D900BDDD3E /* SurfBudsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6CE9A7297FA6D900BDDD3E /* Build configuration list for PBXNativeTarget "SurfBudsTests" */;
+			buildPhases = (
+				6F6CE98C297FA6D900BDDD3E /* Sources */,
+				6F6CE98D297FA6D900BDDD3E /* Frameworks */,
+				6F6CE98E297FA6D900BDDD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F6CE992297FA6D900BDDD3E /* PBXTargetDependency */,
+			);
+			name = SurfBudsTests;
+			productName = SurfBudsTests;
+			productReference = 6F6CE990297FA6D900BDDD3E /* SurfBudsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F6CE999297FA6D900BDDD3E /* SurfBudsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6CE9AA297FA6D900BDDD3E /* Build configuration list for PBXNativeTarget "SurfBudsUITests" */;
+			buildPhases = (
+				6F6CE996297FA6D900BDDD3E /* Sources */,
+				6F6CE997297FA6D900BDDD3E /* Frameworks */,
+				6F6CE998297FA6D900BDDD3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F6CE99C297FA6D900BDDD3E /* PBXTargetDependency */,
+			);
+			name = SurfBudsUITests;
+			productName = SurfBudsUITests;
+			productReference = 6F6CE99A297FA6D900BDDD3E /* SurfBudsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F6CE978297FA6D800BDDD3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6F6CE97F297FA6D800BDDD3E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					6F6CE98F297FA6D900BDDD3E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6F6CE97F297FA6D800BDDD3E;
+					};
+					6F6CE999297FA6D900BDDD3E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6F6CE97F297FA6D800BDDD3E;
+					};
+				};
+			};
+			buildConfigurationList = 6F6CE97B297FA6D800BDDD3E /* Build configuration list for PBXProject "SurfBuds" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F6CE977297FA6D800BDDD3E;
+			productRefGroup = 6F6CE981297FA6D800BDDD3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F6CE97F297FA6D800BDDD3E /* SurfBuds */,
+				6F6CE98F297FA6D900BDDD3E /* SurfBudsTests */,
+				6F6CE999297FA6D900BDDD3E /* SurfBudsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F6CE97E297FA6D800BDDD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6CE98B297FA6D900BDDD3E /* Preview Assets.xcassets in Resources */,
+				6F6CE988297FA6D900BDDD3E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6CE98E297FA6D900BDDD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6CE998297FA6D900BDDD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F6CE97C297FA6D800BDDD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6CE986297FA6D800BDDD3E /* ContentView.swift in Sources */,
+				6F6CE9B0297FA74200BDDD3E /* ModelData.swift in Sources */,
+				6F6CE984297FA6D800BDDD3E /* SurfBudsApp.swift in Sources */,
+				6F6CE9AE297FA70C00BDDD3E /* UserProfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6CE98C297FA6D900BDDD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6CE995297FA6D900BDDD3E /* SurfBudsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6CE996297FA6D900BDDD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6CE9A1297FA6D900BDDD3E /* SurfBudsUITestsLaunchTests.swift in Sources */,
+				6F6CE99F297FA6D900BDDD3E /* SurfBudsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F6CE992297FA6D900BDDD3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F6CE97F297FA6D800BDDD3E /* SurfBuds */;
+			targetProxy = 6F6CE991297FA6D900BDDD3E /* PBXContainerItemProxy */;
+		};
+		6F6CE99C297FA6D900BDDD3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F6CE97F297FA6D800BDDD3E /* SurfBuds */;
+			targetProxy = 6F6CE99B297FA6D900BDDD3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F6CE9A2297FA6D900BDDD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F6CE9A3297FA6D900BDDD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F6CE9A5297FA6D900BDDD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SurfBuds/Preview Content\"";
+				DEVELOPMENT_TEAM = W9HXY9VDZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SurfBuds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F6CE9A6297FA6D900BDDD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SurfBuds/Preview Content\"";
+				DEVELOPMENT_TEAM = W9HXY9VDZ2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SurfBuds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F6CE9A8297FA6D900BDDD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9HXY9VDZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SurfBudsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurfBuds.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SurfBuds";
+			};
+			name = Debug;
+		};
+		6F6CE9A9297FA6D900BDDD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9HXY9VDZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SurfBudsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurfBuds.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SurfBuds";
+			};
+			name = Release;
+		};
+		6F6CE9AB297FA6D900BDDD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9HXY9VDZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SurfBudsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SurfBuds;
+			};
+			name = Debug;
+		};
+		6F6CE9AC297FA6D900BDDD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9HXY9VDZ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SurfBudsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SurfBuds;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F6CE97B297FA6D800BDDD3E /* Build configuration list for PBXProject "SurfBuds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6CE9A2297FA6D900BDDD3E /* Debug */,
+				6F6CE9A3297FA6D900BDDD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F6CE9A4297FA6D900BDDD3E /* Build configuration list for PBXNativeTarget "SurfBuds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6CE9A5297FA6D900BDDD3E /* Debug */,
+				6F6CE9A6297FA6D900BDDD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F6CE9A7297FA6D900BDDD3E /* Build configuration list for PBXNativeTarget "SurfBudsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6CE9A8297FA6D900BDDD3E /* Debug */,
+				6F6CE9A9297FA6D900BDDD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F6CE9AA297FA6D900BDDD3E /* Build configuration list for PBXNativeTarget "SurfBudsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6CE9AB297FA6D900BDDD3E /* Debug */,
+				6F6CE9AC297FA6D900BDDD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F6CE978297FA6D800BDDD3E /* Project object */;
+}
