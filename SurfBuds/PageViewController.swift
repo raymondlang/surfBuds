@@ -70,7 +70,7 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
             return controllers[index + 1]
         }
 
-//Function is called when the user finishes swiping between pages in the UIPageViewController. It checks if the transition was completed, then finds the current visible page by looking at the UIPageViewController's viewControllers property, and finally sets the current page index in the parent view.
+//Called user finishes swiping between pages in the UIPageViewController. It checks if the transition was completed, then finds the current visible page by looking at the UIPageViewController's viewControllers property, and finally sets the current page index in the parent view.
         func pageViewController(
             _ pageViewController: UIPageViewController,
             didFinishAnimating finished: Bool,

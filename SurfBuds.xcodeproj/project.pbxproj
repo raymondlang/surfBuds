@@ -22,69 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6F5E8FC82986285B00C2CB74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6F5E8FBB2986285B00C2CB74 /* Landmarks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6F858A932924ACC8002FE5BD;
-			remoteInfo = Landmarks;
-		};
-		6F5E8FCA2986285B00C2CB74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6F5E8FBB2986285B00C2CB74 /* Landmarks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6F858AA32924ACCA002FE5BD;
-			remoteInfo = LandmarksTests;
-		};
-		6F5E8FCC2986285B00C2CB74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6F5E8FBB2986285B00C2CB74 /* Landmarks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6F858AAD2924ACCA002FE5BD;
-			remoteInfo = LandmarksUITests;
-		};
-		6F5E8FCE2986285B00C2CB74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6F5E8FBB2986285B00C2CB74 /* Landmarks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6FF89F842940F26F00A354BD;
-			remoteInfo = WatchLandmarks;
-		};
-		6F5E8FD22986285B00C2CB74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6F5E8FBB2986285B00C2CB74 /* Landmarks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6FF89FA62940F27100A354BD;
-			remoteInfo = WatchLandmarksTests;
-		};
-		6F5E8FD42986285B00C2CB74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6F5E8FBB2986285B00C2CB74 /* Landmarks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6FF89FB02940F27100A354BD;
-			remoteInfo = WatchLandmarksUITests;
-		};
-		6F5E8FD62986285B00C2CB74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6F5E8FBB2986285B00C2CB74 /* Landmarks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6FF89FDD2940FC1500A354BD;
-			remoteInfo = MacLandmarks;
-		};
-		6F5E8FD82986285B00C2CB74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6F5E8FBB2986285B00C2CB74 /* Landmarks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6FF89FED2940FC1700A354BD;
-			remoteInfo = MacLandmarksTests;
-		};
-		6F5E8FDA2986285B00C2CB74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6F5E8FBB2986285B00C2CB74 /* Landmarks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6FF89FF72940FC1700A354BD;
-			remoteInfo = MacLandmarksUITests;
-		};
 		6F6CE991297FA6D900BDDD3E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6F6CE978297FA6D800BDDD3E /* Project object */;
@@ -104,7 +41,6 @@
 /* Begin PBXFileReference section */
 		6F5E8FB72986277F00C2CB74 /* Question1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1.swift; sourceTree = "<group>"; };
 		6F5E8FB92986279400C2CB74 /* Question2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2.swift; sourceTree = "<group>"; };
-		6F5E8FBB2986285B00C2CB74 /* Landmarks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Landmarks.xcodeproj; path = ../swift/Landmarks/Landmarks.xcodeproj; sourceTree = "<group>"; };
 		6F6CE980297FA6D800BDDD3E /* SurfBuds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfBuds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F6CE983297FA6D800BDDD3E /* SurfBudsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfBudsApp.swift; sourceTree = "<group>"; };
 		6F6CE985297FA6D800BDDD3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,26 +81,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6F5E8FBC2986285B00C2CB74 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6F5E8FC92986285B00C2CB74 /* Landmarks.app */,
-				6F5E8FCB2986285B00C2CB74 /* LandmarksTests.xctest */,
-				6F5E8FCD2986285B00C2CB74 /* LandmarksUITests.xctest */,
-				6F5E8FCF2986285B00C2CB74 /* WatchLandmarks.app */,
-				6F5E8FD32986285B00C2CB74 /* WatchLandmarksTests.xctest */,
-				6F5E8FD52986285B00C2CB74 /* WatchLandmarksUITests.xctest */,
-				6F5E8FD72986285B00C2CB74 /* MacLandmarks.app */,
-				6F5E8FD92986285B00C2CB74 /* MacLandmarksTests.xctest */,
-				6F5E8FDB2986285B00C2CB74 /* MacLandmarksUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		6F6CE977297FA6D800BDDD3E = {
 			isa = PBXGroup;
 			children = (
-				6F5E8FBB2986285B00C2CB74 /* Landmarks.xcodeproj */,
 				6F6CE982297FA6D800BDDD3E /* SurfBuds */,
 				6F6CE993297FA6D900BDDD3E /* SurfBudsTests */,
 				6F6CE99D297FA6D900BDDD3E /* SurfBudsUITests */,
@@ -313,12 +232,6 @@
 			mainGroup = 6F6CE977297FA6D800BDDD3E;
 			productRefGroup = 6F6CE981297FA6D800BDDD3E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 6F5E8FBC2986285B00C2CB74 /* Products */;
-					ProjectRef = 6F5E8FBB2986285B00C2CB74 /* Landmarks.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				6F6CE97F297FA6D800BDDD3E /* SurfBuds */,
@@ -327,72 +240,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		6F5E8FC92986285B00C2CB74 /* Landmarks.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Landmarks.app;
-			remoteRef = 6F5E8FC82986285B00C2CB74 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6F5E8FCB2986285B00C2CB74 /* LandmarksTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = LandmarksTests.xctest;
-			remoteRef = 6F5E8FCA2986285B00C2CB74 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6F5E8FCD2986285B00C2CB74 /* LandmarksUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = LandmarksUITests.xctest;
-			remoteRef = 6F5E8FCC2986285B00C2CB74 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6F5E8FCF2986285B00C2CB74 /* WatchLandmarks.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = WatchLandmarks.app;
-			remoteRef = 6F5E8FCE2986285B00C2CB74 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6F5E8FD32986285B00C2CB74 /* WatchLandmarksTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = WatchLandmarksTests.xctest;
-			remoteRef = 6F5E8FD22986285B00C2CB74 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6F5E8FD52986285B00C2CB74 /* WatchLandmarksUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = WatchLandmarksUITests.xctest;
-			remoteRef = 6F5E8FD42986285B00C2CB74 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6F5E8FD72986285B00C2CB74 /* MacLandmarks.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = MacLandmarks.app;
-			remoteRef = 6F5E8FD62986285B00C2CB74 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6F5E8FD92986285B00C2CB74 /* MacLandmarksTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = MacLandmarksTests.xctest;
-			remoteRef = 6F5E8FD82986285B00C2CB74 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6F5E8FDB2986285B00C2CB74 /* MacLandmarksUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = MacLandmarksUITests.xctest;
-			remoteRef = 6F5E8FDA2986285B00C2CB74 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6F6CE97E297FA6D800BDDD3E /* Resources */ = {

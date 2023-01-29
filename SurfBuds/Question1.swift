@@ -31,7 +31,7 @@ class QuizViewController: UIViewController {
         view.addSubview(questionLabel)
 
         // Setup answer buttons
-        answer1Button.setTitle("Less than a year", for: .normal)
+        answer1Button.setTitle("Less than a year!", for: .normal)
         answer1Button.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(answer1Button)
 
