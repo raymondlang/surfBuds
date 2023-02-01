@@ -107,26 +107,4 @@ class SQLiteHelper {
         }
     }
 }
-
-class UserRegistrationViewController: UIViewController {
-    @IBOutlet weak var usernameTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var emailTextField: UITextField!
-    
-    @IBAction func registerButtonTapped(_ sender: UIButton) {
-        let username = usernameTextField.text!
-        let password = passwordTextField.text!
-        let email = emailTextField.text!
-        
-        let sqliteHelper = SQLiteHelper(dbPath: "path/to/database.sqlite")
-        sqliteHelper.open()
-        let success = sqliteHelper.insertUserProfile(username: username, password: password, email: email)
-        sqliteHelper.close()
-        
-        if success {
-            // Show success message and navigate to home screen, etc.
-        } else {
-            // Show error message
-        }
-    }
 }

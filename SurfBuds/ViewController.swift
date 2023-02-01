@@ -7,6 +7,7 @@
 
 import Foundation
 import CoreLocation
+import UIKit
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     var locationManager: CLLocationManager?
@@ -22,12 +23,14 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         // Request permission to access the user's location
         locationManager?.requestAlwaysAuthorization()
         
+        // Start updating the user's location
+        locationManager?.startUpdatingLocation()
+        
         view.backgroundColor = .gray
         
     }
     
-    // Start updating the user's location
-    locationManager.startUpdatingLocation()
+
 }
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         if status == .authorizedAlways {
@@ -38,29 +41,4 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             }
         }
     }
-
-
-class UserRegistrationViewController: UIViewController, CLLocationManagerDelegate {
-    
-    // Create an instance of the CLLocationManager class
-    let locationManager = CLLocationManager()
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        
-        
-        // Implement the CLLocationManagerDelegate method that is called when the location is updated
-        func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-            if let location = locations.first {
-                // Do something with the location here
-            }
-        }
-        
-        // Implement the CLLocationManagerDelegate method that is called when there is an error updating the location
-        func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-            print("Error: \(error.localizedDescription)")
-        }
-    }
-}
 

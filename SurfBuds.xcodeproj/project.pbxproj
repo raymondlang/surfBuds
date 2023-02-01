@@ -19,6 +19,7 @@
 		6F6CE9B0297FA74200BDDD3E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CE9AF297FA74200BDDD3E /* ModelData.swift */; };
 		6FC9D65E298A07B500E57D4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9D65D298A07B500E57D4B /* ViewController.swift */; };
 		6FC9D662298A140800E57D4B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9D661298A140800E57D4B /* ProfileViewController.swift */; };
+		6FC9D664298A38E200E57D4B /* UserRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9D663298A38E200E57D4B /* UserRegistrationViewController.swift */; };
 		6FD8381E2986363C00DB420A /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8381D2986363C00DB420A /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		6F6CE9AF297FA74200BDDD3E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		6FC9D65D298A07B500E57D4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6FC9D661298A140800E57D4B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6FC9D663298A38E200E57D4B /* UserRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewController.swift; sourceTree = "<group>"; };
 		6FD8381D2986363C00DB420A /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 				6F6CE983297FA6D800BDDD3E /* SurfBudsApp.swift */,
 				6FC9D65D298A07B500E57D4B /* ViewController.swift */,
 				6FC9D661298A140800E57D4B /* ProfileViewController.swift */,
+				6FC9D663298A38E200E57D4B /* UserRegistrationViewController.swift */,
 				6FD8381D2986363C00DB420A /* PageViewController.swift */,
 				6F6CE985297FA6D800BDDD3E /* ContentView.swift */,
 				6F5E8FB72986277F00C2CB74 /* Question1.swift */,
@@ -279,6 +282,7 @@
 				6FD8381E2986363C00DB420A /* PageViewController.swift in Sources */,
 				6F5E8FB82986277F00C2CB74 /* Question1.swift in Sources */,
 				6F5E8FBA2986279400C2CB74 /* Question2.swift in Sources */,
+				6FC9D664298A38E200E57D4B /* UserRegistrationViewController.swift in Sources */,
 				6F6CE9B0297FA74200BDDD3E /* ModelData.swift in Sources */,
 				6F6CE984297FA6D800BDDD3E /* SurfBudsApp.swift in Sources */,
 				6FC9D662298A140800E57D4B /* ProfileViewController.swift in Sources */,
