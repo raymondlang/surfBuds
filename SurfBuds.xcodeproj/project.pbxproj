@@ -16,8 +16,9 @@
 		6F6CE995297FA6D900BDDD3E /* SurfBudsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CE994297FA6D900BDDD3E /* SurfBudsTests.swift */; };
 		6F6CE99F297FA6D900BDDD3E /* SurfBudsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CE99E297FA6D900BDDD3E /* SurfBudsUITests.swift */; };
 		6F6CE9A1297FA6D900BDDD3E /* SurfBudsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CE9A0297FA6D900BDDD3E /* SurfBudsUITestsLaunchTests.swift */; };
-		6F6CE9AE297FA70C00BDDD3E /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CE9AD297FA70C00BDDD3E /* UserProfile.swift */; };
 		6F6CE9B0297FA74200BDDD3E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CE9AF297FA74200BDDD3E /* ModelData.swift */; };
+		6FC9D65E298A07B500E57D4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9D65D298A07B500E57D4B /* ViewController.swift */; };
+		6FC9D662298A140800E57D4B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9D661298A140800E57D4B /* ProfileViewController.swift */; };
 		6FD8381E2986363C00DB420A /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8381D2986363C00DB420A /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,8 +52,9 @@
 		6F6CE99A297FA6D900BDDD3E /* SurfBudsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurfBudsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F6CE99E297FA6D900BDDD3E /* SurfBudsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfBudsUITests.swift; sourceTree = "<group>"; };
 		6F6CE9A0297FA6D900BDDD3E /* SurfBudsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfBudsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		6F6CE9AD297FA70C00BDDD3E /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		6F6CE9AF297FA74200BDDD3E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		6FC9D65D298A07B500E57D4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FC9D661298A140800E57D4B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		6FD8381D2986363C00DB420A /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,13 +107,14 @@
 			isa = PBXGroup;
 			children = (
 				6F6CE983297FA6D800BDDD3E /* SurfBudsApp.swift */,
-				6F6CE985297FA6D800BDDD3E /* ContentView.swift */,
+				6FC9D65D298A07B500E57D4B /* ViewController.swift */,
+				6FC9D661298A140800E57D4B /* ProfileViewController.swift */,
 				6FD8381D2986363C00DB420A /* PageViewController.swift */,
+				6F6CE985297FA6D800BDDD3E /* ContentView.swift */,
 				6F5E8FB72986277F00C2CB74 /* Question1.swift */,
 				6F5E8FB92986279400C2CB74 /* Question2.swift */,
 				6F6CE9AF297FA74200BDDD3E /* ModelData.swift */,
 				6F6CE987297FA6D900BDDD3E /* Assets.xcassets */,
-				6F6CE9AD297FA70C00BDDD3E /* UserProfile.swift */,
 				6F6CE989297FA6D900BDDD3E /* Preview Content */,
 			);
 			path = SurfBuds;
@@ -278,7 +281,8 @@
 				6F5E8FBA2986279400C2CB74 /* Question2.swift in Sources */,
 				6F6CE9B0297FA74200BDDD3E /* ModelData.swift in Sources */,
 				6F6CE984297FA6D800BDDD3E /* SurfBudsApp.swift in Sources */,
-				6F6CE9AE297FA70C00BDDD3E /* UserProfile.swift in Sources */,
+				6FC9D662298A140800E57D4B /* ProfileViewController.swift in Sources */,
+				6FC9D65E298A07B500E57D4B /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
